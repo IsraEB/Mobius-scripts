@@ -9,11 +9,11 @@ set muteMode continue
 Track 6
 
 if mode == play
-Mute
-end
+    Mute
+    end
 else if mode == mute
-Mute
-end
+    Mute
+    end
 else
-Play
-endif
+    Play
+    endif

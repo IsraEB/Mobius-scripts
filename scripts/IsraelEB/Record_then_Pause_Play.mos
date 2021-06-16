@@ -1,0 +1,19 @@
+# 
+
+!name Record_then_Pause_Play
+
+if mode == reset
+Record
+end
+
+else if mode == record
+Play
+end
+
+else if mode == mute
+Mute
+end
+
+else if mode == play
+Mute
+end
