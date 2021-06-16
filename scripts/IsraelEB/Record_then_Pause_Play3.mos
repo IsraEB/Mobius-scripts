@@ -1,4 +1,6 @@
-!name Record_then_Pause_Play
+!name Record_then_Pause_Play_Track_3
+
+Track 3
 
 if mode == reset
 Record
