@@ -8,9 +8,11 @@
 !quantize
 
 set muteMode start
+set quantize cycle
 
 if mode != mute
 	Mute
 end
 
 set muteMode continue
+set quantize off
