@@ -1,6 +1,7 @@
 # If all the tracks are muted, only start the selected track but, all the tracks are synchronized
 
 !name StartOne
+!autoload
 
 call MuteAllV
 
@@ -12,8 +13,7 @@ while i <= trackCount
 
     set muteMode start
 
-	Mute
-	Mute
+	Restart
 
     if i == t
         Mute
