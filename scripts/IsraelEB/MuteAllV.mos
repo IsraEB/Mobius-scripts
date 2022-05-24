@@ -1,0 +1,3 @@
+!name MuteAllV
+
+call RunScriptInAllTracks "MuteV"

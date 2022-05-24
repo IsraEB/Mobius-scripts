@@ -1,4 +1,3 @@
-  
 # Make a unquantized mute in the track
 # Can be used with Focus Lock
 
@@ -6,14 +5,10 @@
 
 !focuslock
 
-
 set muteMode start
 
-if mode==mute
-
+if mode!=mute
+	Mute
 end
-else
-Mute
-endif
 
 set muteMode continue

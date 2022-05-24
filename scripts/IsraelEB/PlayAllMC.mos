@@ -1,0 +1,3 @@
+!name PlayAllMC
+
+call RunScriptInAllTracks "PlayMC"
