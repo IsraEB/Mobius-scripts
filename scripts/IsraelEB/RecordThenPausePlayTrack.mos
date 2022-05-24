@@ -4,10 +4,10 @@ Track $1
 
 if mode == reset
 	Record
-else if mode == record
+elseif mode == record
 	Play
-else if mode == mute
+elseif mode == mute
 	Mute
-else if mode == play
+elseif mode == play
 	Mute
 endif

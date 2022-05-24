@@ -8,17 +8,18 @@
 
 if mode == reset
 	Record
-else if mode == mute
+elseif mode == mute
 	Reset
 	Record
-else if mode == record
+elseif mode == record
 	Play
-else if mode == play
+elseif mode == play
 	Overdub
-else if mode != reset
+elseif mode != reset
 	Overdub
 endif
 
+# Next clicks between period of time
 label click
-Overdub
+	Overdub
 end

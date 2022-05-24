@@ -9,7 +9,7 @@ set muteMode continue
 
 if mode == play
     Mute
-else if mode == mute
+elseif mode == mute
     Mute
 else
     Play
