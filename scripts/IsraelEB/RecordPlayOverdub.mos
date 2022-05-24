@@ -4,20 +4,21 @@
 
 !name RecordPlayOverdub
 
+# First click
 !multiclick 500
-
-if mode == reset
-	Record
-elseif mode == mute
-	Reset
-	Record
-elseif mode == record
-	Play
-elseif mode == play
-	Overdub
-elseif mode != reset
-	Overdub
-endif
+	if mode == reset
+		Record
+	elseif mode == mute
+		Reset
+		Record
+	elseif mode == record
+		Play
+	elseif mode == play
+		Overdub
+	elseif mode != reset
+		Overdub
+	endif
+end
 
 # Next clicks between period of time
 label click
