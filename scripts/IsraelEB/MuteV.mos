@@ -7,7 +7,7 @@
 
 set muteMode start
 
-if mode!=mute
+if mode != mute
 	Mute
 end
 

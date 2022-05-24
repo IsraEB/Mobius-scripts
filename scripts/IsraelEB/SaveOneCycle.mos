@@ -2,7 +2,8 @@
 #The idea is press the key and generate an empty track of one cycle
 #This would be use for make a long Tracks without have to wait for overdub it
 
-!name Save 1 cycle
+!name SaveOneCycle
+
 !focuslock
 
 cycleCount=1

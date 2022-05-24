@@ -3,11 +3,12 @@
 # Can be used with Focus Lock
 
 !name PlayMS
+
 !focuslock
 
 set muteMode start
 
-if mode==mute
+if mode == mute
 	Mute
 endif
 

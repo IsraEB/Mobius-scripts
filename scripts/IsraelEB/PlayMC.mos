@@ -2,10 +2,11 @@
 # Can be used with Focus Lock
 
 !name PlayMC
+
 !focuslock
 
 set muteMode continue
 
-if mode==mute
+if mode == mute
 	Mute
 endif

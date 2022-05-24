@@ -1,10 +1,9 @@
 !name PlayAllMC
 
 variable t track
-
 variable i 1
 
-while i<=trackCount
+while i <= trackCount
 	Track i
 	call PlayMC
 

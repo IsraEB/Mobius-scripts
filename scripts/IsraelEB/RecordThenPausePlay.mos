@@ -1,17 +1,11 @@
-!name Record_then_Pause_Play
+!name RecordThenPausePlay
 
 if mode == reset
-Record
-end
-
+	Record
 else if mode == record
-Play
-end
-
+	Play
 else if mode == mute
-Mute
-end
-
+	Mute
 else if mode == play
-Mute
-end
+	Mute
+endif

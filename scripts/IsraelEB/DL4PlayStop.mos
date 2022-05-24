@@ -1,0 +1,16 @@
+
+# Variation of fourstringri0t script
+#
+# Emulation of the Line 6 DL4 Play/Stop button in the track specified in the keybinding
+
+!name Play/Stop
+
+set muteMode continue
+
+if mode == play
+    Mute
+else if mode == mute
+    Mute
+else
+    Play
+endif
